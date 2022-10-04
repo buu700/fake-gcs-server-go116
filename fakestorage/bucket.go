@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/fsouza/fake-gcs-server/internal/backend"
+	"github.com/buu700/fake-gcs-server-go116/internal/backend"
 	"github.com/gorilla/mux"
 )
 

@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/fsouza/fake-gcs-server/fakestorage"
-	"github.com/fsouza/fake-gcs-server/internal/checksum"
-	"github.com/fsouza/fake-gcs-server/internal/config"
+	"github.com/buu700/fake-gcs-server-go116/fakestorage"
+	"github.com/buu700/fake-gcs-server-go116/internal/checksum"
+	"github.com/buu700/fake-gcs-server-go116/internal/config"
 	"github.com/sirupsen/logrus"
 )
 

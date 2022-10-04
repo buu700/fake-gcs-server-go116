@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
-	"github.com/fsouza/fake-gcs-server/internal/checksum"
+	"github.com/buu700/fake-gcs-server-go116/internal/checksum"
 	"github.com/gorilla/mux"
 )
 

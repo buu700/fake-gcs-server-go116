@@ -45,7 +45,7 @@ The example will look like as follows:
 class FakeGcsServerTest {
 
     @Container
-    static final GenericContainer<?> fakeGcs = new GenericContainer<>("fsouza/fake-gcs-server")
+    static final GenericContainer<?> fakeGcs = new GenericContainer<>("buu700/fake-gcs-server-go116")
       .withExposedPorts(8080)
       .withCreateContainerCmdModifier(cmd -> cmd.withEntrypoint(
           "/bin/fake-gcs-server",

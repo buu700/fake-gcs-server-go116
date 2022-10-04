@@ -1,4 +1,4 @@
-module github.com/fsouza/fake-gcs-server
+module github.com/buu700/fake-gcs-server-go116
 
 require (
 	cloud.google.com/go/pubsub v1.25.1

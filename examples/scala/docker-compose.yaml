@@ -1,6 +1,6 @@
 services:
   storage:
-    image: fsouza/fake-gcs-server
+    image: buu700/fake-gcs-server-go116
     build: ../../
     ports:
       - 8080:8080

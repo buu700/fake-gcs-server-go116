@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"cloud.google.com/go/storage"
-	"github.com/fsouza/fake-gcs-server/internal/checksum"
+	"github.com/buu700/fake-gcs-server-go116/internal/checksum"
 	"google.golang.org/api/googleapi"
 )
 

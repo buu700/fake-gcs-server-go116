@@ -4,7 +4,7 @@
 
 package fakestorage
 
-import "github.com/fsouza/fake-gcs-server/internal/backend"
+import "github.com/buu700/fake-gcs-server-go116/internal/backend"
 
 const timestampFormat = "2006-01-02T15:04:05.999999Z07:00"
 

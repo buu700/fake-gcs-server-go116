@@ -7,8 +7,8 @@ package config
 import (
 	"testing"
 
-	"github.com/fsouza/fake-gcs-server/fakestorage"
-	"github.com/fsouza/fake-gcs-server/internal/notification"
+	"github.com/buu700/fake-gcs-server-go116/fakestorage"
+	"github.com/buu700/fake-gcs-server-go116/internal/notification"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )

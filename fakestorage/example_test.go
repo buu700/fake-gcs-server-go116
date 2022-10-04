@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/fsouza/fake-gcs-server/fakestorage"
+	"github.com/buu700/fake-gcs-server-go116/fakestorage"
 )
 
 func ExampleServer_Client() {
